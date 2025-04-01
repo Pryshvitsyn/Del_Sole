@@ -16,4 +16,7 @@ services:
         value: mypassword123
       - key: WEBHOOK_TUNNEL_URL
         value: https://your-app-name.onrender.com
-   
+    disk:
+      name: data
+      mountPath: /home/node/.n8n
+      sizeGB: 1
