@@ -9,11 +9,11 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
-        value: true
+        value: "true"
       - key: N8N_BASIC_AUTH_USER
-        value: admin
+        value: "admin"
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: mypassword123
+        value: "mypassword123"
       - key: WEBHOOK_TUNNEL_URL
         value: https://your-app-name.onrender.com
-   
+    
