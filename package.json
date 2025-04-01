@@ -1,0 +1,12 @@
+
+{
+  "name": "n8n-render-template",
+  "version": "1.0.0",
+  "description": "Simple N8N build for Render.com",
+  "scripts": {
+    "start": "n8n"
+  },
+  "dependencies": {
+    "n8n": "^1.44.0"
+  }
+}
